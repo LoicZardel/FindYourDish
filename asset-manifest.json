@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/FindYourDish/static/css/main.f855e6bc.css",
-    "main.js": "/FindYourDish/static/js/main.f898190a.js",
+    "main.css": "/FindYourDish/static/css/main.2ee4c1c7.css",
+    "main.js": "/FindYourDish/static/js/main.d4acd11c.js",
     "static/js/453.d120859b.chunk.js": "/FindYourDish/static/js/453.d120859b.chunk.js",
-    "static/media/logo.svg": "/FindYourDish/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/r2.jpg": "/FindYourDish/static/media/r2.498851d5eb687688b649.jpg",
+    "static/media/dish.jpg": "/FindYourDish/static/media/dish.59282063aebe9f2f63c6.jpg",
+    "static/media/r1.jpg": "/FindYourDish/static/media/r1.4f476f34895e3a3504f7.jpg",
+    "static/media/r3.jpg": "/FindYourDish/static/media/r3.e4ebb2f0a36dad0cd25e.jpg",
+    "static/media/loupe.png": "/FindYourDish/static/media/loupe.50b390b91fac6b1f4075.png",
+    "static/media/go.jpg": "/FindYourDish/static/media/go.8914157cb091d756c135.jpg",
+    "static/media/map.jpg": "/FindYourDish/static/media/map.99f7160b716bc75708ae.jpg",
+    "static/media/respo.jpg": "/FindYourDish/static/media/respo.55471792e800ca5daddc.jpg",
+    "static/media/gourmet.jpg": "/FindYourDish/static/media/gourmet.e3225824b1bbdb0e1bfa.jpg",
+    "static/media/dishlogo.png": "/FindYourDish/static/media/dishlogo.853212f6682ff9b35507.png",
     "index.html": "/FindYourDish/index.html",
-    "main.f855e6bc.css.map": "/FindYourDish/static/css/main.f855e6bc.css.map",
-    "main.f898190a.js.map": "/FindYourDish/static/js/main.f898190a.js.map",
+    "main.2ee4c1c7.css.map": "/FindYourDish/static/css/main.2ee4c1c7.css.map",
+    "main.d4acd11c.js.map": "/FindYourDish/static/js/main.d4acd11c.js.map",
     "453.d120859b.chunk.js.map": "/FindYourDish/static/js/453.d120859b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.f898190a.js"
+    "static/css/main.2ee4c1c7.css",
+    "static/js/main.d4acd11c.js"
   ]
 }
