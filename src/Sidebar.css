@@ -4,12 +4,36 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.hd {
+    background-color: #5a7df0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+}
+.sr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sr input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}   
 .sidebar {
     width: 20%;
     background-color: #333;
     color: white;
     height: 100vh;
     position: absolute;
+    
     transition: transform 0.3s ease;
 }
 .proprio{
@@ -17,6 +41,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30%;
+}
+.im{
+    width: 40%;
 }
 .menu{
     font-weight: bold;
@@ -33,7 +61,7 @@ body {
     align-items: center;
 }
 .head input{
-    height: 30%;
+    height: 50%;
     
 }
 .head form{

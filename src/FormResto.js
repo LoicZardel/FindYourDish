@@ -24,7 +24,7 @@ function FormResto() {
                   <input type='email' placeholder='email' required />
                   <input type='number' placeholder='quantité' required className='mb-5' />
                   <a href='https://wa.me/237699202589' target='_blank' rel='noopener noreferrer'>
-                    <button type='button' className='mb-5' style={{width:100}}>OK</button>
+                    <button type='button' className='mb-5' style={{width: 150,height: 40}}>OK</button>
                   </a>
                 </form>
               </div>

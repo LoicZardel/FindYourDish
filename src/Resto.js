@@ -33,7 +33,7 @@ Destinations à proximité ci-dessous</span>
                 <h3 className='mt-3'>Njoya restaux</h3>
                 <h4>Prix: 3$</h4>
                 <br></br>
-                 <button className='mb-3'><Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}>Confirmer</Link></button>
+                 <Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}><button className='mb-3' id='confirm'>Confirmer </button></Link>
                
 
               </div>
@@ -45,7 +45,7 @@ Destinations à proximité ci-dessous</span>
                 <h3 className='mt-3'>Geneva resto </h3>
                 <h4>Prix: 8$</h4>
                 <br></br>
-                 <button className='mb-3'><Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}>Confirmer</Link></button>
+                  <Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}><button className='mb-3' id='confirm'>Confirmer </button></Link>
               </div>      
             </div>
              {/* restaurant 2 proposé*/} 
@@ -55,7 +55,7 @@ Destinations à proximité ci-dessous</span>
                 <h3 className='mt-3'>Mama Gourmet </h3>
                 <h4>Prix: 5$</h4>
                 <br></br>
-                 <button className='mb-3 text-light'><Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}>Confirmer</Link></button>
+                  <Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}><button className='mb-3' id='confirm'>Confirmer </button></Link>
               </div>      
             </div>
 

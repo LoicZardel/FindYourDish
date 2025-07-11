@@ -13,6 +13,10 @@ display: flex;
     
    
 }
+#confirm{
+  width: 150px;
+height: 40px;
+}
 #loupe{
     width: 100px;
     transform: translate(10px);

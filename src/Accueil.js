@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import dishlogo from './dishlogo.png';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Link } from 'react-router-dom'
 
 function App() {
   
@@ -49,8 +49,8 @@ function App() {
             
             className="form-control me-2"
           />
-          <button className="btn btn-primary" id='search'><Link to='/Resto' style={{color:'white',backgroundColor:'#4CAF50',textDecoration:'none'}}>Rechercher</Link></button>
-          <button className='com btn btn-secondary ms-2' id='cmd'><Link to='/MesCommande' style={{color:'white',textDecoration:'none'}}>Mes Commandes</Link></button>
+          <Link to='/Resto' ><button className="btn btn-primary" id='search'>Rechercher</button></Link>
+          <Link to='/Mescommande' ><button className="btn btn-primary ml-2" id='search' style={{backgroundColor:'#E84710',marginLeft:10}}>Mes Commande</button></Link>
         </div>
 
         {/* Popup d'inscription */}

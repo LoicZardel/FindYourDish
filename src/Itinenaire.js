@@ -36,7 +36,7 @@ function Itineraire() {
                                 <div id='gps' alt=''  >
                                     <img src={map} className='mt-3  mx-auto d-block' alt=''  ></img>
                                     <br></br>
-                                    <button id='now' className='text-center mt-3  mx-auto d-block'><Link to='/FormResto' style={{color: 'white',textDecoration:'none'}}>Commander maintenant</Link></button>
+                                    <Link to='/FormResto' style={{color: 'white',textDecoration:'none'}}><button id='now' className='text-center mt-3  mx-auto d-block'>Commander maintenant</button></Link>
 
                                 </div>
 
