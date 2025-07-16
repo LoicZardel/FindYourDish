@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import dishlogo from './dishlogo.png';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   

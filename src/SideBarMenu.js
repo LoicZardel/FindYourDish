@@ -7,11 +7,9 @@ import { LuClipboardList } from "react-icons/lu";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { GoChecklist } from "react-icons/go";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import {Link} from 'react-router-dom';
 /*import dishlogo from './dishlogo.png';*/
 function SideBarMenu() {
-    
-
     return (
         <div>
                     <div className='side'>
@@ -38,10 +36,10 @@ function SideBarMenu() {
 
                             <div className='menu'>
                                 <ul>
-                                    <li><span><IoHome /></span><span>.</span>  Listes Des Clients</li>
-                                    <li><span><LuClipboardList /></span><span>.</span>Listes des Plat</li>
-                                    <li><span><IoMdNotificationsOutline /></span><span>.</span>Commande en Cour</li>
-                                    <li><span><GoChecklist /></span><span>.</span>Commande Effectué</li>
+                                   <Link to='/ListeClient'> <li><span><IoHome /></span><span>.</span>  Listes Des Clients</li></Link>
+                                   <Link to='/AdminListePlat'> <li><span><LuClipboardList /></span><span>.</span>Listes des Plat</li></Link>
+                                    <Link to='CommandeCour' ><li><span><IoMdNotificationsOutline /></span><span>.</span>Commande en Cour</li></Link>
+                                    <Link to='CommandeEffectue' ><li><span><GoChecklist /></span><span>.</span>Commande Effectué</li></Link>
                                     
                                 </ul>
                             </div>

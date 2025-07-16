@@ -8,7 +8,7 @@ import { FaMinus } from "react-icons/fa"
 
 function AdminListePlat() {
   const a = "nom"; 
-  const b = "email";
+  const b = "Prix";
 
   return (
     
@@ -24,7 +24,7 @@ function AdminListePlat() {
         </div>
         <br></br>  
         <div className='lb'>
-           <div><p style={{width:300}}>Listes des Client</p></div>
+           <div><p style={{width:300}}>Listes des Plats</p></div>
            <div className='b'><button style={{margin:15,backgroundColor:'#4CAF50'}}><HiOutlinePlus />Ajouter</button><button style={{margin:15,backgroundColor:'#E84710'}} ><FaMinus />supprimer</button></div>
         </div>
        
